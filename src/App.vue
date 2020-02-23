@@ -12,9 +12,8 @@ export default {
   name: 'app',
   
   components: {
-    appHeader: Header
+    appHeader: Header//Header.vue local registration
   }
-
 }
 </script>
 

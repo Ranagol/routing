@@ -10,7 +10,7 @@
 export default {
   data () {
     return {
-      link: { name: 'UserEdit', params: { id: this.$route.params.id}}
+      link: { name: 'UserEdit', params: { id: this.$route.params.id}}//here we define our link. Important: this route was named UserEdit in routes.js, so we can call this route by his name
     }
   }
 }
